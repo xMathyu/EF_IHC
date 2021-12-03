@@ -142,6 +142,8 @@ body.dark-theme {
 .svg__img {
   width: 300px;
   justify-self: center;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 
@@ -552,6 +554,11 @@ a {
   margin-bottom: var(--mb-2);
 }
 
+.nombreEmpresa{
+  color: black;
+  background-color: var(--container-color);
+}
+
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
@@ -651,6 +658,8 @@ a {
    position: relative;
    margin-bottom: 20px;
    overflow: hidden;
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
 }
 .team_container .card .content .imgBx img
 {
@@ -728,6 +737,8 @@ a {
   width: 135px;
   justify-self: center;
   margin-bottom: var(--mb-0-5);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 /*=============== APP ===============*/
